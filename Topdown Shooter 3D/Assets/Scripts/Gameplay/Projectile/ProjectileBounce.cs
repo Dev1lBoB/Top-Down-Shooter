@@ -28,7 +28,7 @@ public class ProjectileBounce : MonoBehaviour
         float speed = lastVelocity.magnitude;
         Vector3 direction = Vector3.Reflect(lastVelocity.normalized, coll.contacts[0].normal);
         
-        rb.velocity = direction * speed;
+        rb.velocity = direction * Mathf.Max(speed, 5f);
     }
 
     private void OnCollisionEnter(Collision coll)
