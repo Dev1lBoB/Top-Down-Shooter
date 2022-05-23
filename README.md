@@ -1,5 +1,5 @@
 # Top-Down-Shooter
-Simple 1 v1 shooter against an AI
+Simple 1 v 1 shooter against an AI
 
 Controls:
 - WASD/Arrows for movement
